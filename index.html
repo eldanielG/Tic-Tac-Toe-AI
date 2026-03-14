@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha com IA</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <section class="panel panel--intro">
+      <p class="eyebrow">Projeto para portfolio</p>
+      <h1>Jogo da Velha com IA</h1>
+      <p class="lead">
+        Um jogo da velha em HTML, CSS e JavaScript puro, com modo para duas pessoas
+        e modo contra a IA usando Minimax.
+      </p>
+
+      <div class="mode-switch" aria-label="Selecionar modo de jogo">
+        <button class="mode-button is-active" type="button" data-mode="ai">
+          Jogador vs IA
+        </button>
+        <button class="mode-button" type="button" data-mode="pvp">
+          Jogador vs Jogador
+        </button>
+      </div>
+
+      <div class="meta-grid">
+        <article class="meta-card">
+          <span class="meta-label">Modo</span>
+          <strong id="mode-label">Jogador vs IA</strong>
+        </article>
+        <article class="meta-card">
+          <span class="meta-label">Vez de</span>
+          <strong id="turn-indicator">X</strong>
+        </article>
+      </div>
+
+      <p class="status-message" id="status-message" aria-live="polite">
+        Sua vez (X).
+      </p>
+
+      <button class="restart-button" id="restart-button" type="button">
+        Reiniciar partida
+      </button>
+    </section>
+
+    <section class="panel panel--board">
+      <div class="board" id="board" role="grid" aria-label="Tabuleiro de jogo da velha">
+        <button class="cell" type="button" data-index="0" aria-label="Celula 1"></button>
+        <button class="cell" type="button" data-index="1" aria-label="Celula 2"></button>
+        <button class="cell" type="button" data-index="2" aria-label="Celula 3"></button>
+        <button class="cell" type="button" data-index="3" aria-label="Celula 4"></button>
+        <button class="cell" type="button" data-index="4" aria-label="Celula 5"></button>
+        <button class="cell" type="button" data-index="5" aria-label="Celula 6"></button>
+        <button class="cell" type="button" data-index="6" aria-label="Celula 7"></button>
+        <button class="cell" type="button" data-index="7" aria-label="Celula 8"></button>
+        <button class="cell" type="button" data-index="8" aria-label="Celula 9"></button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
