@@ -1,24 +1,24 @@
 # Jogo da Velha com IA
 
-Projeto de portfolio com um jogo da velha desenvolvido em **HTML**, **CSS** e **JavaScript puro**, sem frameworks e sem bibliotecas externas.
+Projeto de portfólio com um jogo da velha desenvolvido em **HTML**, **CSS** e **JavaScript puro**, sem frameworks e sem bibliotecas externas.
 
-## Demonstracao do projeto
+## Demonstração do projeto
 
 O jogo oferece dois modos:
 
 - **Jogador vs Jogador**
 - **Jogador vs IA**
 
-No modo contra a IA, a jogada do computador usa o algoritmo **Minimax**, que analisa as possibilidades do tabuleiro para escolher a melhor decisao.
+No modo contra a IA, a jogada do computador usa o algoritmo **Minimax**, que analisa as possibilidades do tabuleiro para escolher a melhor decisão.
 
 ## Funcionalidades
 
 - Alternar entre modo PvP e modo contra a IA
-- Exibir de quem e a vez
-- Detectar vitoria, derrota e empate
-- Destacar a combinacao vencedora
+- Exibir de quem é a vez
+- Detectar vitória, derrota e empate
+- Destacar a combinação vencedora
 - Reiniciar a partida a qualquer momento
-- Layout responsivo e facil de navegar
+- Layout responsivo e fácil de navegar
 
 ## Estrutura do projeto
 
@@ -32,23 +32,23 @@ No modo contra a IA, a jogada do computador usa o algoritmo **Minimax**, que ana
 
 ## Como executar localmente
 
-1. Clone este repositorio ou baixe os arquivos.
+1. Clone este repositório ou baixe os arquivos.
 2. Abra o arquivo `index.html` no navegador.
 
-Nao e necessario instalar dependencias nem rodar comandos extras.
+Não é necessário instalar dependências nem rodar comandos extras.
 
-## Destaques tecnicos
+## Destaques técnicos
 
-- Interface simples e direta para facilitar a manutencao
-- Codigo organizado com nomes de variaveis e funcoes descritivos
+- Interface simples e direta para facilitar a manutenção
+- Código organizado com nomes de variáveis e funções descritivos
 - IA implementada com Minimax em JavaScript puro
 - Projeto pronto para ser publicado no GitHub Pages
 
 ## Objetivo
 
-Este projeto foi pensado para compor um portfolio de desenvolvedor front-end com foco em:
+Este projeto foi pensado para compor um portfólio de desenvolvedor front-end com foco em:
 
-- logica de programacao
-- manipulacao de DOM
-- organizacao de codigo
-- experiencia de usuario em um projeto pequeno, mas bem acabado
+- lógica de programação
+- manipulação de DOM
+- organização de código
+- experiência de usuário em um projeto pequeno, mas bem acabado
